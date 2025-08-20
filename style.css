@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    background-color: #ffffe4;
+    /* ------------------------------------ */
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+/* MENU SUPERIOR */
+header {
+    background-color: white;
+}
+
+.menu-superior {
+    text-transform: uppercase;
+}
+
+/* CONTEÚDO PRINCIPAL */
+section {
+    border: 1px solid black;
+}
