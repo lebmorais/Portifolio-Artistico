@@ -1,7 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
-    background-color: #ffffe4;
     /* ------------------------------------ */
     padding:0;
     margin:0;
@@ -10,9 +9,16 @@
     border:0
 }
 
+:root {
+  --cor-background: #e0e0e0;
+  --cor-header: #ffffff;
+  --cor-border: #a1a1a1;
+}
+
 /* MENU SUPERIOR */
 header {
-    background-color: white;
+    background-color: var(--cor-header);
+    border-bottom: 1px solid var(--cor-border);
 }
 
 .menu-superior {
@@ -20,6 +26,22 @@ header {
 }
 
 /* CONTEÚDO PRINCIPAL */
+body {
+    background-color: var(--cor-background);
+}
+
 section {
-    border: 1px solid black;
+    border: 1px solid yellow;
+}
+
+.lista {
+    border: 2px solid blue;
+    display: inline-flex;
+    max-width: 400px;
+    height: 400px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
 }
